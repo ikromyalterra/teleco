@@ -1,0 +1,14 @@
+= Naming Convention (System Name)
+
+Berisi aturan penamaan dalam development sistem.
+
+= Domain Naming Guide
+
+== API Based
+- {belum diputuskan}
+
+== Web Mobile/Desktop Based
+- {belum diputuskan}
+
+== Metric Guide
+- {belum diputuskan}

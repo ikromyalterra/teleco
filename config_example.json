@@ -1,0 +1,41 @@
+{
+	"port": "7777",
+	"jwt": {
+		"secret_token": "jwt-secret",
+		"secret_refresh_token": "jwt-refresh-secret",
+		"expired_token": 24,
+		"expired_refresh_token": 168
+	},
+	"signature": {
+		"secret": "signature-secret",
+		"time_limit": 15
+	},
+	"database": {
+		"mongo": {
+			"db_name": "teleco",
+			"driver": "mongodb",
+			"host": "localhost:27017",
+			"user": "",
+			"password": "",
+			"max_age": {
+				"days": 0,
+				"months": 6,
+				"years": 0
+			}
+		},
+		"amqp": {
+			"api_url": "http://localhost:15672",
+			"host": "localhost",
+			"port": 5672,
+			"user": "guest",
+			"password": "guest",
+			"reconnect_retry": 3,
+			"reconnect_interval": 2,
+			"debug": true
+		}
+	},
+	"logdir": "log",
+	"log_identifier": "teleco",
+	"log_max_age": 15,
+	"debug": true
+}

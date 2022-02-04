@@ -1,0 +1,26 @@
+FROM debian:buster-20200908-slim
+
+ENV TZ 'Asia/Jakarta'
+
+WORKDIR /app
+
+RUN echo $TZ > /etc/timezone && \
+apt-get update && apt-get install -y tzdata ca-certificates && \
+rm /etc/localtime && \
+ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
+dpkg-reconfigure -f noninteractive tzdata && \
+apt-get clean
+
+# Tell docker how the process PID 1 handle gracefully shutdown
+# Signal Interupt for gracefully shutdown echo server
+STOPSIGNAL SIGINT
+
+EXPOSE 8080
+
+ADD teleco /app/teleco
+
+RUN chmod +x /app/teleco && \
+    mkdir -p /app/log
+
+CMD cd /app && \
+    ./teleco

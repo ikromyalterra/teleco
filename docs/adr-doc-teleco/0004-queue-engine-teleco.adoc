@@ -1,0 +1,35 @@
+:toc:
+:toc-title: 
+
+= [ADR-0004] Queue Engine
+
+* Status: proposed
+* Deciders: Bahtiar Indra Ariyanki
+* Date: 2021-08-30
+
+== Summary
+
+=== Issue
+
+We need async queue process to handle transaction when the threadpool is full to prevent transaction lost.
+
+=== Decision
+
+We are choosing RabbitMQ for the Queue Engine.
+
+Why RabbitMQ:
+
+* Mature & Popular Queue Engine.
+* We already use it in our system.
+* Have good performance to handle high transaction.
+
+=== Consequences
+
+-
+
+=== Related Decisions
+
+-
+
+== References, Implementations and Notes
+* https://www.cloudamqp.com/blog/why-use-rabbitmq-in-a-microservice-architecture.html

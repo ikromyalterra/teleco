@@ -1,0 +1,27 @@
+:toc:
+:toc-title: 
+
+= [ADR-0005] Queue Engine
+
+* Status: proposed
+* Deciders: Bahtiar Indra Ariyanki
+* Date: 2021-08-30
+
+== Summary
+
+=== Issue
+* Need to secure internal API
+* Need to store role in token for easy implementation 
+
+=== Decision
+We use JWT token because:
+
+* Stateless Authentication and easy to use.
+* JWT token good for Information Exchange
+* We use to implement JWT Token in alterra project
+
+=== Consequences
+-
+
+== References, Implementations and Notes
+* https://auth0.com/docs/tokens/json-web-tokens

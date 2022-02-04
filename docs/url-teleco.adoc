@@ -1,0 +1,28 @@
+= System URL (System Name)
+
+== Teleco Dashboard ==
+---
+|===
+|*Stage* |*Url*
+|Development | {belum di putuskan}
+|Staging | {belum di putuskan}
+|Production | {belum di putuskan}
+|===
+
+== Teleco API
+---
+|===
+|*Stage* |*Url*
+|Development | {belum di putuskan}
+|Staging | {belum di putuskan}
+|Production | {belum di putuskan}
+|===
+
+== Teleco API Internal {jika API domain sama dengan diatas ini bisa di hapus}
+---
+|===
+|*Stage* |*Url*
+|Development | {belum di putuskan}
+|Staging | {belum di putuskan}
+|Production | {belum di putuskan}
+|===

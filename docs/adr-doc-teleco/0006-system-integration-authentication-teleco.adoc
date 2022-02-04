@@ -1,0 +1,29 @@
+:toc:
+:toc-title: 
+
+= [ADR-0006] System Integration Authentication
+
+* Status: proposed
+* Deciders: Bahtiar Indra Ariyanki
+* Date: 2021-08-30
+
+== Summary
+
+=== Issue
+* Partner Need Simplest way to connect to our services
+* We All Need Security Guarentee between Partner and Our Services
+
+=== Decision
+We Generate Signature to Authenticated Before We Process partners request. The signature should be:  
+
+* Encrypted with secret key that we both know
+* For Signature Comparation befor our system process the requesst is based on timestamp and payload that partner sent
+* we decide to use HMAC-SHA256 to generate the signature with secret key provided
+* We will process the request when the request timestamp is not greater than period that we aggreed
+
+=== Consequences
+* We must check the library that partner use to generate the signature, because diffrent programming languages & library sometimes generate diffrent signature
+
+== References, Implementations and Notes
+* https://www.devglan.com/online-tools/hmac-sha256-online
+* https://stackoverflow.com/questions/18080445/difference-between-hmacsha256-and-hmacsha512

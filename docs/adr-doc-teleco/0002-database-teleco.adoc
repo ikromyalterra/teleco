@@ -1,0 +1,34 @@
+:toc:
+:toc-title: 
+
+= [ADR-0002] Database
+
+* Status: proposed
+* Deciders: Bahtiar Indra Ariyanki
+* Date: 2021-08-30
+
+== Summary
+
+=== Issue
+
+We need to choose database for our back-end engine. The highest transaction per minute (tpm) in BPA for the last 7 month for telco product prepaid is around 900 tpm, so wee need to handle this high transaction.
+
+=== Decision
+
+We are choosing MongoDB for the database. 
+
+Why MongoDB:
+
+* Support unstructured data, JSON Format Document, and easy to use.
+* We only need to read configuration and store transaction log.
+* Mature, popular Database, and have a good performance.
+
+=== Consequences
+
+We don't have experience using mongodb for high transaction. Need to discuss more with infrastructure team.
+
+=== Related Decisions
+
+-
+
+== References, Implementations and Notes

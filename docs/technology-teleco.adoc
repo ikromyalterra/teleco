@@ -1,0 +1,11 @@
+= Technology (System Name)
+
+|===
+|*Specification* |*Name*
+|OS | {akan di update nanti}
+|Web Server| {akan di update nanti}
+|Programming Language | GO 1.16.4
+|Framework| Labstack Echo
+|Container| {akan di update nanti}
+|Proxy| {akan di update nanti}
+|===

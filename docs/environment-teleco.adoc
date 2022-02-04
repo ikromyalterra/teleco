@@ -1,0 +1,19 @@
+= Environment (System Name)
+
+|===
+|*Stage* |*Environment* |*Specs*
+|Development |IP Address |
+| |IP Address |
+| |URL |
+| |Doc Root |
+| |Service Name |
+| |DB Server |
+| |Git Repo |
+|Production |DB Server |
+| |IP Address |
+| |URL |
+| |Doc Root |
+| |Service Name |
+| |DB Server |
+| |Git Repo |
+|===

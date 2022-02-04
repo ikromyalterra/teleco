@@ -1,0 +1,10 @@
+= Developer Onboarding (System Name)
+
+Berisi dokumentasi tentang hal-hal yang harus dilakukan oleh developer
+pada tahap onboarding. Biasanya berisi 2 poin utama berupa tools yang
+dipakai dan tutorial untuk menginstall sistem di lokal.
+
+== Tools
+
+
+== Local Machine Setup

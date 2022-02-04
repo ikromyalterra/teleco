@@ -1,0 +1,35 @@
+:toc:
+:toc-title: 
+
+= [ADR-0001] Programming Language Teleco
+
+* Status: proposed
+* Deciders: Bahtiar Indra Ariyanki
+* Date: 2021-08-30
+
+== Summary
+
+=== Issue
+
+We need to choose programming languages for our back-end engine.
+
+=== Decision
+
+We are choosing Golang for the back-end. 
+
+Why Golang:
+
+* We already use golang in many project in our company, we have many examples and use cases to follow and learning golang become easier.
+* Golang is a compiled language, which means the code written is directly translated into formats that a processor understands, easy to deploy, and easy to scale.
+* Golang have ability to support concurrency. The Go language has Goroutines, which are basically functions that can run simultaneously and independently
+* Popular programming language
+
+=== Consequences
+
+Some engineers need to learn golang
+
+=== Related Decisions
+
+-
+
+== References, Implementations and Notes

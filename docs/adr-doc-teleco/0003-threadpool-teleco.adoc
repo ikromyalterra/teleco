@@ -1,0 +1,29 @@
+:toc:
+:toc-title: 
+
+= [ADR-0003] Threadpool
+
+* Status: proposed
+* Deciders: Bahtiar Indra Ariyanki
+* Date: 2021-08-30
+
+== Summary
+
+=== Issue
+
+We needs to do sync transaction but the issuer have limit for the concurency.
+
+=== Decision
+
+We need to implement the thread pool mechanism to handle sync process and have the concurency limit.
+
+=== Consequences
+
+- 
+
+=== Related Decisions
+
+-
+
+== References, Implementations and Notes
+* Kraken BM Thread Pool Implementation example

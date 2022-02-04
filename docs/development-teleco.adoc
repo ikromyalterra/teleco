@@ -1,0 +1,28 @@
+= Development (System Name)
+
+Berisi Git Flow dan langkah development sistem.
+
+= Architecture
+**Teleco** created use Hexagonal Architecture
+
+![Image result for hexagonal architecture software](https://herbertograca.files.wordpress.com/2017/03/hexagonal-arch-4-ports-adapters2.png?w=708)
+
+Provide **Port and Adapter** concept to connect each layer. **API**, And **Modules(repository)** layer depends to **business** layer.
+
+
+== Getting Started
+
+> Please make sure **Go**, **MongoDB**, **Redis**, **RabbitMQ**  installed on your machine
+
+ 1. Clone this repository `git clone git@github.com:sepulsa/teleco.git`
+ 2. Copy `config/.env.example` to `config/.env` and configure all config needed {TODO: Update location and filename}
+
+== Development Step for story / task
+1. Developer checkout dari branch main dengan membuat branch baru dengan file name sesuai dengan Story/Task code disambung judulnya.
+  example: TEC-100-STORY-BUILD-NEW-FEATURE
+2. untuk standar developement Developer harus commit walaupun sekecil apapun ke branch pengerjaan
+3. kalau sudah selesai bisa dilakukan pull request untuk direview oleh team developer
+4. merge kembali ke main jika code sudah ok
+
+== Start Using API
+{akan di update lagi}
